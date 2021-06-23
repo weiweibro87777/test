@@ -18,7 +18,7 @@ while True:
         continue
     
     if guess == answer:
-        print('廢！終於答對了！')
+        print('答對了！')
         break
     elif guess < answer:
         lowest = guess
